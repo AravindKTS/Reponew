@@ -7,4 +7,6 @@ elif today == 'Sunday':
         print('Rest')
 else:
     print('Work,Work,Work.')
+else:
+    print('Hello World')
     
