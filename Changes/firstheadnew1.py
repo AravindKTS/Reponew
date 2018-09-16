@@ -1,8 +1,6 @@
 word = "Bottles"
 for milk_num in range(99,0,-1): 
     print(milk_num,word,"off milk on the wall.")
-    print(milk_num,word,"off milk.")
-    print("Take one down.")
     print("Pass it around.")
     if milk_num == 1:
         print("No more bottles of milk on the wall.")
