@@ -8,5 +8,5 @@ elif today == 'Sunday':
 else:
     print('Work,Work,Work.')
 else:
-    print('Hello World')
+    print('This is different')
     

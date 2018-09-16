@@ -1,14 +1,14 @@
 word = "Bottles"
-for beer_num in range(99,0,-1): 
-    print(beer_num,word,"off beer on the wall.")
-    print(beer_num,word,"off beer.")
+for milk_num in range(99,0,-1): 
+    print(milk_num,word,"off milk on the wall.")
+    print(milk_num,word,"off milk.")
     print("Take one down.")
     print("Pass it around.")
-    if beer_num == 1:
-        print("No more bottles of beer on the wall.")
+    if milk_num == 1:
+        print("No more bottles of milk on the wall.")
     else:
-        new_num = beer_num - 1
+        new_num = milk_num - 1
         if new_num == 1:
-            word = "bottle"
-        print(new_num,word, "of beer on the wall.")
+            word = "milk"
+        print(new_num,word, "of milk on the wall.")
         print()
